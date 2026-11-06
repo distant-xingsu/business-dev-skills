@@ -1,0 +1,7 @@
+interface:
+  display_name: "业务权限与流程"
+  short_description: "核对菜单、搜索与快捷入口的权限，保持接口数据范围和状态流程一致"
+  default_prompt: "使用 $dev-business-permission-workflow，调查目标业务的权限与状态链，明确规则及差异，在授权范围内修复并提供对应角色和状态的验证证据。"
+
+policy:
+  allow_implicit_invocation: true
