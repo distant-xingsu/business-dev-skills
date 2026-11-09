@@ -1,7 +1,7 @@
 interface:
   display_name: "业务接口联调"
-  short_description: "核对接口契约与搜索完整性，接通查询、分页、保存回读并处理请求状态"
-  default_prompt: "使用 $dev-business-api-integration，检查目标业务的数据链和真实接口契约，在授权范围内修复并按风险验证，区分隔离验证与真实联调结果。"
+  short_description: "接通后台查询、详情和保存回读，核对字段、分页、搜索完整性及请求状态"
+  default_prompt: "使用 $dev-business-api-integration，接入或修复后台查询、详情与保存接口，核对真实契约、响应归属和回读结果，区分隔离验证与真实联调。"
 
 policy:
   allow_implicit_invocation: true

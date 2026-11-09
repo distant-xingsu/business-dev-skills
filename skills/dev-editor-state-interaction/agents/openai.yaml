@@ -1,7 +1,7 @@
 interface:
   display_name: "编辑器状态与操作"
-  short_description: "梳理画布编辑、撤销重做、保存恢复与组件素材接入，保持编辑状态一致"
-  default_prompt: "使用 $dev-editor-state-interaction，定位目标编辑器的状态所有权与操作边界，在授权范围内完善交互，并验证相关历史、保存或资源生命周期。"
+  short_description: "处理后台设计器的选中拖拽、批量修改、撤销重做、组件接入与保存预览"
+  default_prompt: "使用 $dev-editor-state-interaction，梳理后台设计器的文档、选择与历史状态，修复目标操作并核验相关预览、保存快照或资源生命周期。"
 
 policy:
   allow_implicit_invocation: true

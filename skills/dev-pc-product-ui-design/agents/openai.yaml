@@ -1,7 +1,7 @@
 interface:
-  display_name: "PC 产品界面设计"
-  short_description: "设计 PC 业务页面，对照原型交互，优化布局、功能入口、文案与组件迁移"
-  default_prompt: "使用 $dev-pc-product-ui-design，按当前项目约定设计或优化目标页面，明确布局、操作和文案决定，在授权范围内实现并验证受影响界面。"
+  display_name: "后台管理界面设计"
+  short_description: "设计后台搜索表格、表单详情与弹层，统一按钮图标、提示反馈、布局和滚动"
+  default_prompt: "使用 $dev-pc-product-ui-design，设计或优化后台管理页面的布局、表单、按钮与反馈，沿用项目组件和业务契约并核验受影响界面。"
   brand_color: "#2563EB"
 
 policy:
