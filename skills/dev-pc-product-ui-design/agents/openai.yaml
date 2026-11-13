@@ -1,7 +1,7 @@
 interface:
   display_name: "后台管理界面设计"
-  short_description: "设计后台搜索表格、表单详情与弹层，统一按钮图标、提示反馈、布局和滚动"
-  default_prompt: "使用 $dev-pc-product-ui-design，设计或优化后台管理页面的布局、表单、按钮与反馈，沿用项目组件和业务契约并核验受影响界面。"
+  short_description: "设计后台列表、表单与弹层，梳理复杂工作区的主任务、入口和信息层级"
+  default_prompt: "使用 $dev-pc-product-ui-design，按记录管理或复杂工作区选择设计方法，沿用项目组件和业务契约并核验受影响任务。"
   brand_color: "#2563EB"
 
 policy:
